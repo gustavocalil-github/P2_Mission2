@@ -1,0 +1,135 @@
+.f-wrap{
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+nav {
+    margin: 1%;
+    display: flex;
+    gap: 3rem;
+}
+
+nav a{
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    background: rgb(127, 182, 255);
+    border-radius: 50px;
+    border: solid rgb(83, 126, 207);
+    padding: 5px;
+    font-weight: 600;
+    color:navy;
+}
+
+
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 500px;
+    height: 20px;
+    border: solid 2px;
+    border-radius: 2px;
+}
+
+button{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid rgb(74, 105, 243);
+    background-color: rgb(0, 174, 255);
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+
+
+hr {
+    width: 500px;
+    margin: 10px 0 10px 0;
+}
+
+.resultado {
+    margin: 10px;
+}
+
+li {
+    list-style:circle;
+    margin-left: -1%;
+}
+
+table{
+	width:  1000px;
+	margin: 30px auto;
+}
+
+table th{
+	padding: 10px 0;
+	background-color: #f4f4f4;
+	/* background-color: #fff; */
+	border:  thin solid #d4d4d4;
+}
+
+table td{
+	padding: 10px;
+	border:  thin solid #d4d4d4;
+	width: 18%;
+	text-align: center;
+	background-color: #fff;
+}
+
+table img{
+	width:  70%;
+}
+
+table td.total-price{
+	font-weight: bold;
+	font-size: 22px;
+}
+table a{
+	text-decoration: none;
+	color: darkred;
+	background-color: #ffecef;
+	padding: 10px 15px;
+}
+table a:active{
+	background-color: #ccf4d6;
+	color:  green;
+}
+
+table select{
+	padding: 10px;
+	width:  200px;
+	font-size: 16px;
+	border: thin solid #d4d4d4;
+	background-color: transparent;
+}
+table select:focus{
+	outline: none;
+}
+
+table img{
+	width:  60%;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+	min-height: 100vh;
+	color: #555;
+}
